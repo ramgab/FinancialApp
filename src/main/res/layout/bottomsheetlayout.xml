@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dialog_bg">
+
+    <TextView
+        android:id="@+id/choosetxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="@string/add_a_purchase"
+        android:textColor="@color/white"
+        android:layout_marginTop="5dp"
+        android:textSize="25sp"
+        android:textStyle="bold"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:paddingTop="30dp"
+        android:text="@string/price_text"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        app:backgroundTint="@color/white"
+        android:textCursorDrawable="@drawable/cursor_color"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="@string/category_text"
+        android:textColor="@color/white"
+        android:paddingTop="30dp"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <com.google.android.flexbox.FlexboxLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/layoutEdit"
+        app:flexWrap="wrap"
+        android:paddingTop="5dp">
+
+        <Button
+            android:id="@+id/products_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:backgroundTint="@color/colorPrimary"
+            android:text="@string/products_name"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            app:cornerRadius="30dp" />
+
+        <Button
+            android:id="@+id/health_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:backgroundTint="@color/colorPrimary"
+            android:text="@string/health_name"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            app:cornerRadius="30dp" />
+
+        <Button
+            android:id="@+id/communal_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:backgroundTint="@color/colorPrimary"
+            android:text="@string/communal_name"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            app:cornerRadius="30dp" />
+
+        <Button
+            android:id="@+id/cafe_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:backgroundTint="@color/colorPrimary"
+            android:text="@string/cafe_name"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            app:cornerRadius="30dp" />
+
+        <Button
+            android:id="@+id/sport_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:backgroundTint="@color/colorPrimary"
+            android:text="@string/sport_name"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            app:cornerRadius="30dp" />
+
+        <Button
+            android:id="@+id/entertainment_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:backgroundTint="@color/colorPrimary"
+            android:text="@string/entertainment_name"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            app:cornerRadius="30dp" />
+
+        <Button
+            android:id="@+id/technique_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:backgroundTint="@color/colorPrimary"
+            android:text="@string/technique_name"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            app:cornerRadius="30dp" />
+
+        <Button
+            android:id="@+id/clothes_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:backgroundTint="@color/colorPrimary"
+            android:text="@string/clothes_name"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            app:cornerRadius="30dp" />
+
+        <Button
+            android:id="@+id/transport_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:backgroundTint="@color/colorPrimary"
+            android:text="@string/transport_name"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            app:cornerRadius="30dp" />
+
+        <Button
+            android:id="@+id/subscription_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:backgroundTint="@color/colorPrimary"
+            android:text="@string/subscription_name"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            app:cornerRadius="30dp" />
+
+        <Button
+            android:id="@+id/other_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:backgroundTint="@color/colorPrimary"
+            android:text="@string/other_name"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            app:cornerRadius="30dp" />
+
+    </com.google.android.flexbox.FlexboxLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="@string/comment"
+        android:textColor="@color/white"
+        android:paddingTop="30dp"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        app:backgroundTint="@color/white"
+        android:textCursorDrawable="@drawable/cursor_color"/>
+</LinearLayout>

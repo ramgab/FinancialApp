@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Financial App</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Рамил</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="add_button">Добавить</string>
+    <string name="price_text">Цена:</string>
+    <string name="category_text">Категория:</string>
+    <string name="comment">Комментарий:</string>
+
+    <string name="menu_home">Главная</string>
+    <string name="menu_gallery">Статистика</string>
+    <string name="menu_slideshow">Список покупок</string>
+    <string name="products_name">Продукты</string>
+    <string name="health_name">Здоровье</string>
+    <string name="sport_name">Спорт</string>
+    <string name="technique_name">Техника</string>
+    <string name="cafe_name">Рестораны</string>
+    <string name="add_a_purchase">Добавьте покупку</string>
+    <string name="entertainment_name">Развлечения</string>
+    <string name="transport_name">Транспорт</string>
+    <string name="subscription_name">Подписки</string>
+    <string name="communal_name">ЖКХ</string>
+    <string name="clothes_name">Одежда</string>
+    <string name="other_name">Другое</string>
+</resources>
